@@ -27,7 +27,7 @@ pickle
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/spam-classification.git
+    git clone https://github.com/anirudhviswanath2001/SpamHam.git
     cd spam-classification
     ```
 
@@ -57,18 +57,6 @@ streamlit run app.py
 1. Open the Streamlit application in your browser (default: http://localhost:8501).
 2. Enter a message in the input field.
 3. Click the **Predict** button to see the classification result.
-
----
-
-## File Structure
-```plaintext
-spam-classification/
-├── app.py              # Main Streamlit application
-├── vectorizer.pkl      # TF-IDF vectorizer model
-├── model.pkl           # Trained ML model
-├── requirements.txt    # Dependencies
-└── README.md           # Project documentation
-```
 
 ---
 
