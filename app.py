@@ -7,6 +7,7 @@ import string
 tfidf=pickle.load(open('vectorizer.pkl','rb'))
 model=pickle.load(open('model.pkl','rb'))
 ps=PorterStemmer()
+nltk.download('punkt')
 
 def transfrom_text(text):
     text=text.lower()
